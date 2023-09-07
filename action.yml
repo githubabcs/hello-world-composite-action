@@ -22,7 +22,7 @@ runs:
     - run: goodbye.sh
       shell: bash
     - name: Hello world
-      uses: actions/hello-world-javascript-action@v1
+      uses: actions/hello-world-javascript-action@main
       with:
         who-to-greet: "${{ inputs.who-to-greet }}"
       id: hello
